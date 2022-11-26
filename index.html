@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNTER HTML</title>
+    <style>
+        .bg{
+            background-color: black;
+            padding-left: 30px;
+        }
+        #heading{
+            color: white;
+        }
+        #counterText{
+            color: white;
+        }
+        #decrement{
+            background-color: white;
+            color: black;
+            height: 30px;
+            width: 100px;
+            font-size: 1rem;
+        }
+        #increment{
+            background-color: white;
+            color: black;
+            height: 30px;
+            width: 100px;
+            font-size: 1rem;
+        }
+        #reset{
+            background-color: black;
+            color: white;
+            border-color: white;
+            height: 30px;
+            width: 100px;
+            font-size: 1rem;
+        }
+        p{
+           color: white;
+           width: fit-content;
+        }
+    </style>
+</head>
+<body class="bg">
+    <h1 id="heading">Counter using HTML</h1>
+   <p><u id="ul">Your Current Count is : <span id="counterText">0</span></u></p>
+   <p id="texterror"></p>
+    
+    <button id="decrement">Decrement</button>
+    <button id="increment">Increment</button>
+    <button id="reset">Clear</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
